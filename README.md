@@ -1,16 +1,25 @@
-# amayume
+# Amayume
 
-A new Flutter project.
+Amayume é um aplicativo em Flutter onde usuários podem registrar resenhas, notas e comentários sobre animes. O projeto é focado em arquitetura limpa, organização e boas práticas modernas, servindo também como estudo avançado de desenvolvimento mobile.
 
-## Getting Started
+## Tecnologias Usadas
+- Flutter e Dart  
+- Firebase (Auth, Firestore, Storage)  
+- Bloc para gerenciamento de estado  
+- API GraphQL  
+- Testes unitários  
+- Clean Architecture  
 
-This project is a starting point for a Flutter application.
+## Objetivo do Projeto
+Criar um app fluido e intuitivo que permita ao usuário registrar e consultar opiniões sobre animes, garantindo escalabilidade e qualidade por meio de boas práticas e testes.
 
-A few resources to get you started if this is your first Flutter project:
+## Status do Projeto
+Em desenvolvimento inicial.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Funcionalidades
+- Autenticação com Firebase  
+- Integração com API GraphQL para listagem de animes  
+- Criação de resenhas com notas e comentários  
+- Perfil do usuário  
+- Favoritos  
+- Testes unitários nos módulos principais  
