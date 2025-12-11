@@ -1,6 +1,6 @@
 import 'package:amayume/core/theme/app_background.dart';
 import 'package:amayume/core/theme/app_theme.dart';
-import 'package:amayume/screens/login.dart';
+import 'package:amayume/screens/login/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {

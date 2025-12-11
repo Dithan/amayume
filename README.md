@@ -13,9 +13,6 @@ Amayume é um aplicativo em Flutter onde usuários podem registrar resenhas, not
 ## Objetivo do Projeto
 Criar um app fluido e intuitivo que permita ao usuário registrar e consultar opiniões sobre animes, garantindo escalabilidade e qualidade por meio de boas práticas e testes.
 
-## Status do Projeto
-Em desenvolvimento inicial.
-
 ## Funcionalidades
 - Autenticação com Firebase  
 - Integração com API GraphQL para listagem de animes  
