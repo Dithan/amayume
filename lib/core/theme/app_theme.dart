@@ -39,6 +39,11 @@ class AmayumeTheme {
           fontWeight: FontWeight.w400,
           color: clearer,
         ),
+        bodySmall: GoogleFonts.inter(
+          fontSize: 12,
+          fontWeight: FontWeight.w400,
+          color: clearer,
+        ),
       ),
       // App Bar
       appBarTheme: const AppBarTheme(

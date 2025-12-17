@@ -1,4 +1,5 @@
 import 'package:amayume/core/theme/app_background.dart';
+import 'package:amayume/screens/home/widgets/list_card.dart';
 import 'package:amayume/screens/home/widgets/popular_banner.dart';
 import 'package:flutter/material.dart';
 
@@ -13,12 +14,22 @@ class Home extends StatelessWidget {
           child: SingleChildScrollView(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
-              // Banner principal 'Popular'
-              child: PopularBanner(),
+              child: Column(
+                children: [
+                  // Banner principal 'Popular'
+                  PopularBanner(),
+                  SizedBox(height: 32),
+                  // Lista de animes
+                  ListCard(listTile: "Action"),
+                  SizedBox(height: 24),
+                  ListCard(listTile: "Romance"),
+                  SizedBox(height: 24),
+                  ListCard(listTile: "Sci-fi"),
+                  SizedBox(height: 24),
+                  ListCard(listTile: "Terror"),
+                ],
+              ),
             ),
-            // Lista de animes...
-            // Lista de animes...
-            // Lista de animes...
           ),
         ),
       ),
