@@ -52,6 +52,9 @@ class AmayumeTheme {
       ),
       // Color Schema
       colorScheme: ColorScheme.fromSeed(
+        onPrimary: primary,
+        onSecondary: clearer,
+        onTertiary: background,
         seedColor: primary,
         brightness: Brightness.dark,
       ),
