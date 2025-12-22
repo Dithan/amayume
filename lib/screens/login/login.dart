@@ -1,4 +1,4 @@
-import 'package:amayume/screens/home/home.dart';
+import 'package:amayume/core/layouts/app_shell.dart';
 import 'package:amayume/screens/login/widgets/login_button.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -94,7 +94,7 @@ class Login extends StatelessWidget {
             const SizedBox(height: 32),
             const LoginButton(
               imageBtn: "assets/login/google-icon.png",
-              navigation: Home(),
+              navigation: AppShell(),
             ),
           ],
         ),
