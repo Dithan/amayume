@@ -8,6 +8,7 @@ class AmayumeTheme {
 
   static ThemeData get theme {
     return ThemeData(
+      useMaterial3: true,
       // Data theme
       brightness: Brightness.dark,
       scaffoldBackgroundColor: Colors.transparent,

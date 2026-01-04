@@ -26,18 +26,27 @@ class _AppShellState extends State<AppShell> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: FloatingBottomNavigation(
-        currentIndex: _currentIndex,
-        onTap: (index) {
-          setState(() {
-            _currentIndex = index;
-          });
-        },
-      ),
       body: AppBackground(
-        child: IndexedStack(
-          index: _currentIndex,
-          children: _pages,
+        child: Stack(
+          children: [
+            IndexedStack(
+              index: _currentIndex,
+              children: _pages,
+            ),
+            Positioned(
+              bottom: 24,
+              left: 24,
+              right: 24,
+              child: FloatingBottomNavigation(
+                currentIndex: _currentIndex,
+                onTap: (index) {
+                  setState(() {
+                    _currentIndex = index;
+                  });
+                },
+              ),
+            )
+          ],
         ),
       ),
     );
